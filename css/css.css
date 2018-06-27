@@ -10,6 +10,9 @@ ul{
 .nav{
 	background: #ffffff;
 }
+.nav img{
+  margin-left: 20px;
+}
 .nav_but{
 	background: url(../images/nav_but.png) no-repeat center center;
 	background-size:60%;
@@ -18,7 +21,12 @@ ul{
 	box-shadow：none;
 	border: 1px solid #CCCCCC;
 	margin-top: 5%;
-
+  float: right;
+}
+.nav_ul{
+  margin: 0;
+  padding: 0;
+  line-height: 34px;
 }
 
 .banner{
